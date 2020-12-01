@@ -1,0 +1,12 @@
+From: santafromrunescape@gmail.com
+To: ${sendee_email}
+Subject: Special Mission
+
+hello ${sender}
+
+It's time to face some hard truths. My best years are behind me. I've seen more sunsets then I'm gonna see. My reindeer are old and lack discipline.
+
+You have to buy a present for ${sendee}
+
+cheers man,
+Santa
