@@ -1,21 +1,31 @@
 import random
 import smtplib
+import traceback
 from string import Template
+from getpass import getpass
 
 def send_emails(contacts, pairings, email, password):
-    # for name in pairings.keys():
-    #     print(f'{name} with email {contacts[name]} sends to {pairings[name]} with email {contacts[pairings[name]]}')
-    template = read_template()
+    
+    in_fd = open('message.txt','r')
+    template = Template(in_fd.read())
+    in_fd.close()
 
     try:
         server = smtplib.SMTP_SSL('smtp.gmail.com',465)
         server.ehlo()
         server.login(email, password)
-    except:
-        print 'Something went wrong logging into google SMTP server...'
+        for name in pairings.keys():
+            sender_name = name
+            sender_email = contacts[name]
+            sendee_name = pairings[name]
+            server.sendmail(email, sender_email, template.substitute({'sender_email':sender_email, 'sender_name':sender_name, 'sendee_name': sendee_name}))
+        print('emails sent!')
+        server.close()
+    except Exception:
+        print('Something went wrong logging into google SMTP server...')
+        traceback.print_exc()
+        
     
-    
-
 
 def read_template(filename='message.txt'):
     with open(filename, 'r') as template_file:
@@ -26,6 +36,8 @@ def read_template(filename='message.txt'):
 def get_pairings(contacts, relationships):
     pairings = dict()
     names = list(contacts.keys())
+    random.shuffle(names)
+    random.shuffle(names)
     random.shuffle(names)
 
     for i in range(len(names)):
@@ -93,6 +105,6 @@ if __name__ == '__main__':
     contacts = get_contacts()
     relationships = get_relationships(contacts)
     pairings = get_pairings(contacts, relationships)
-    email = input("email: ")
-    password = input("password: ")
+    email = input("Email: ")
+    password = getpass()
     send_emails(contacts, pairings, email, password)

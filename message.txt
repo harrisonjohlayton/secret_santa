@@ -1,12 +1,19 @@
 From: santafromrunescape@gmail.com
-To: ${sendee_email}
+To: ${sender_email}
 Subject: Special Mission
 
-hello ${sender}
+hello ${sender_name},
 
-It's time to face some hard truths. My best years are behind me. I've seen more sunsets then I'm gonna see. My reindeer are old and lack discipline.
+Christmas is coming up. That time of year when friends get together and have a good ass time.
 
-You have to buy a present for ${sendee}
+There's this group of housemates on my good list. Four Software engineers, one Ecologist, and a university student studying social work. As you well know, it's my responsibility to deliver them presents.
 
-cheers man,
+But Santa is getting old. I've seen more sunsets then I'm gonna see. My bones creak when I walk and I no longer command the respect of Rudolph. This is where you come in.
+
+I need YOU to buy a present for ${sendee_name}. Make it exactly 20 bucks give or take. Not a penny more, not a penny less.
+
+cheers dude,
 Santa
+
+P.S.
+Keep this shit a secret. I don't want the word getting out that I'm hiring third party help.
