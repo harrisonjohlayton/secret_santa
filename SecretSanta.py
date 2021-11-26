@@ -13,6 +13,7 @@ def send_emails(contacts, pairings, email, password):
     try:
         server = smtplib.SMTP_SSL('smtp.gmail.com',465)
         server.ehlo()
+        print("got here")
         server.login(email, password)
         for name in pairings.keys():
             sender_name = name

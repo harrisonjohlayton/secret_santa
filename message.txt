@@ -1,19 +1,32 @@
 From: santafromrunescape@gmail.com
 To: ${sender_email}
-Subject: Special Mission
+Subject: Secret Mission
 
-hello ${sender_name},
+*puff* *huff* *puff*
 
-Christmas is coming up. That time of year when friends get together and have a good ass time.
+${sender_name} please listen, we don't have much time.
 
-There's this group of housemates on my good list. Four Software engineers, one Ecologist, and a university student studying social work. As you well know, it's my responsibility to deliver them presents.
+My name is Richard Litte, Santas right-hand elf and Chief Financial Officer.
 
-But Santa is getting old. I've seen more sunsets then I'm gonna see. My bones creak when I walk and I no longer command the respect of Rudolph. This is where you come in.
+Something terrible has happened. I don't know if it was the egg nog or the plum pudding but Santa has lost his mind. Santa wants to put EVERYONE on the naughty list.
 
-I need YOU to buy a present for ${sendee_name}. Make it exactly 20 bucks give or take. Not a penny more, not a penny less.
+*Bang* *Boom*
 
-cheers dude,
-Santa
+We've locked him in the workshop, but it won't hold him for long.
+
+*Bang* *Crunching of Wood*
+
+I'm sending out batch emails to everyone on the NICE list before its too late. This year, it's up to YOU to get a Christmas/Hanukkah present valued at approximately $$20 AUD.
+
+Your target is ${sendee_name}
+
+*sound of door blowing to smitherines*
+
+Oh no! He's coming. Please hurry ${sender_name}, you must fullfil this duty and have a party at a convenient time sometime in December to exchange presents and save the holiday season before its too la-AHHHHHHHHHHHHHHHHHHHAHAHHSAHHHHHHHHHHHHHHHHHHHHHHHHHAHASHAHHHHHHHHAhaHAH
+
+Cheers dude,
+Richard Little,
+CFO, Christmas & Hanukkah LLC
 
 P.S.
 Keep this shit a secret. I don't want the word getting out that I'm hiring third party help.
